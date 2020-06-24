@@ -1,0 +1,21 @@
+{
+    "name": "pebble-theme",
+    "displayName": "Pebble Theme",
+    "description": "A VSCode theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pebble Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Pebble Theme-color-theme.json"
+            }
+        ]
+    }
+}
